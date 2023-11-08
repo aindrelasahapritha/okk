@@ -42,6 +42,10 @@ int deleteElement(int arr[], int *size, int position) {
     return 1;
 }
 
+int shift(int arr[], int *size, int position){
+
+}
+
 int main() {
     int arr[100];
     int size = 0;
@@ -77,7 +81,8 @@ int main() {
                 }
                 break;
             case 4:
-                printf
+                printf("Enter the position to shift right: ");
+                scanf("%d", ṭ-)
             case 5:
                 printf("Exiting the program.\n");
                 return 0;
