@@ -16,7 +16,6 @@ int calculatesum(struct Numbers *numbers){
 return s;
 }
 
-
 int main(){
     struct Numbers set;
 
@@ -24,10 +23,6 @@ int main(){
     scanf("%d",&set.n);
 
     set.a=(int*)malloc(set.n* sizeof(int));
-    if(set.a==NULL){
-        printf("Memory allication Failed");
-        return 1;
-    }
 
     printf("Enter the ele of array:\n");
     for(int i=0;i<set.n;i++){

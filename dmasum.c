@@ -9,11 +9,6 @@ int main(){
 
     a=(int*)malloc(n * sizeof(int));
 
-    if(a==NULL){
-        printf("Memory Allocation Failed.");
-        return 1;
-    }
-
     printf("Enter Elements of the Array:\n");
     for(int i=0;i<n;i++){
         scanf("%d",&a[i]);

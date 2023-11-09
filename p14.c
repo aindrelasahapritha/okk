@@ -20,7 +20,6 @@ int main(){
     printf("Enter the number Temp in Celcius:");
     scanf("%d",&data.n);
     
-
     data.t=(float*)malloc(data.n*sizeof(float));
     
     printf("Enter tem in F:\n");
@@ -31,13 +30,11 @@ int main(){
 
     convtof(&data);
 
-
 printf("Temperatures in Celsius:\n");
 
 for(int i=0;i<data.n;i++){
     printf("%.2f\n",data.t[i]);
 }
-printf("\n");
 free(data.t);
 return 0;
 
